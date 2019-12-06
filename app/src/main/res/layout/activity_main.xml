@@ -48,7 +48,7 @@
                 android:backgroundTint="@android:color/darker_gray"
                 android:drawableLeft="@drawable/icon_lock"
                 android:ems="10"
-                android:hint="Password"
+                android:hint="Contraseña"
                 android:inputType="textPassword"
                 android:paddingLeft="5dp" />
 
