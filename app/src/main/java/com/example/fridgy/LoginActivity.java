@@ -90,6 +90,7 @@ public class LoginActivity extends AppCompatActivity {
                                 Toast.makeText(LoginActivity.this, "Has conseguido loguearte con exito: "+name, LENGTH_SHORT).show();
                                 bttnLogin.setVisibility(View.VISIBLE);
                                 Intent intent = new Intent(LoginActivity.this, MenuActivity.class);
+                                intent.putExtra("name", name);
                                 startActivity(intent);
 
                             }else{
